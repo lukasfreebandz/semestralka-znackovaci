@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<festival id="F001" name="Back From The Dead Fest" edition="1" city="Milovice" country="Česká republika" startDate="2026-07-17" endDate="2026-07-19">
+  <identity>
+    <location>Letiště Milovice, Česká republika</location>
+    <theme>Revival festival zaměřený na mrtvé popové, rapové a rockové interprety a na známé kapely s mrtvými členy.</theme>
+  </identity>
+  <venues>
+    <venue id="V001" type="open-air" capacity="12000">
+      <name>Main Stage</name>
+      <description>Hlavní scéna pro největší popová vystoupení a večerní program.</description>
+    </venue>
+    <venue id="V002" type="open-air" capacity="8000">
+      <name>Rap Arena</name>
+      <description>Scéna zaměřená na rap a hip-hop tribute show.</description>
+    </venue>
+    <venue id="V003" type="tent" capacity="7000">
+      <name>Rock Dome</name>
+      <description>Krytá scéna pro rockové a alternativní revival koncerty.</description>
+    </venue>
+  </venues>
+  <performers>
+    <performer id="P001" genre="pop" type="artist" country="international">
+      <name>Michael Jackson</name>
+    </performer>
+    <performer id="P002" genre="pop" type="artist" country="international">
+      <name>Prince</name>
+    </performer>
+    <performer id="P003" genre="pop" type="artist" country="international">
+      <name>David Bowie</name>
+    </performer>
+    <performer id="P004" genre="pop" type="artist" country="international">
+      <name>George Michael</name>
+    </performer>
+    <performer id="P005" genre="pop" type="artist" country="international">
+      <name>Whitney Houston</name>
+    </performer>
+    <performer id="P006" genre="pop" type="artist" country="international">
+      <name>Amy Winehouse</name>
+    </performer>
+    <performer id="P007" genre="pop" type="artist" country="international">
+      <name>Aaliyah</name>
+    </performer>
+    <performer id="P008" genre="pop" type="artist" country="international">
+      <name>Tina Turner</name>
+    </performer>
+    <performer id="P009" genre="pop" type="artist" country="international">
+      <name>Selena</name>
+    </performer>
+    <performer id="P010" genre="pop" type="artist" country="international">
+      <name>Karen Carpenter</name>
+    </performer>
+    <performer id="P011" genre="pop" type="band" country="international">
+      <name>Queen</name>
+    </performer>
+    <performer id="P012" genre="pop" type="band" country="international">
+      <name>The Beatles</name>
+    </performer>
+    <performer id="P013" genre="pop" type="band" country="international">
+      <name>Wham!</name>
+    </performer>
+    <performer id="P014" genre="pop" type="band" country="international">
+      <name>The Cranberries</name>
+    </performer>
+    <performer id="P015" genre="pop" type="band" country="international">
+      <name>Roxette</name>
+    </performer>
+    <performer id="P016" genre="pop" type="band" country="international">
+      <name>The Carpenters</name>
+    </performer>
+    <performer id="P017" genre="pop" type="band" country="international">
+      <name>Bee Gees</name>
+    </performer>
+    <performer id="P018" genre="pop" type="band" country="international">
+      <name>Boney M.</name>
+    </performer>
+    <performer id="P019" genre="pop" type="band" country="international">
+      <name>The Jackson 5</name>
+    </performer>
+    <performer id="P020" genre="pop" type="band" country="international">
+      <name>The Mamas &amp; the Papas</name>
+    </performer>
+    <performer id="P021" genre="rap" type="artist" country="international">
+      <name>Tupac Shakur</name>
+    </performer>
+    <performer id="P022" genre="rap" type="artist" country="international">
+      <name>The Notorious B.I.G.</name>
+    </performer>
+    <performer id="P023" genre="rap" type="artist" country="international">
+      <name>XXXTENTACION</name>
+    </performer>
+    <performer id="P024" genre="rap" type="artist" country="international">
+      <name>Juice WRLD</name>
+    </performer>
+    <performer id="P025" genre="rap" type="artist" country="international">
+      <name>Pop Smoke</name>
+    </performer>
+    <performer id="P026" genre="rap" type="artist" country="international">
+      <name>Eazy-E</name>
+    </performer>
+    <performer id="P027" genre="rap" type="artist" country="international">
+      <name>DMX</name>
+    </performer>
+    <performer id="P028" genre="rap" type="artist" country="international">
+      <name>MF DOOM</name>
+    </performer>
+    <performer id="P029" genre="rap" type="artist" country="international">
+      <name>Nipsey Hussle</name>
+    </performer>
+    <performer id="P030" genre="rap" type="artist" country="international">
+      <name>Mac Miller</name>
+    </performer>
+    <performer id="P031" genre="rap" type="band" country="international">
+      <name>Migos</name>
+    </performer>
+    <performer id="P032" genre="rap" type="band" country="international">
+      <name>N.W.A</name>
+    </performer>
+    <performer id="P033" genre="rap" type="band" country="international">
+      <name>Mobb Deep</name>
+    </performer>
+    <performer id="P034" genre="rap" type="band" country="international">
+      <name>A Tribe Called Quest</name>
+    </performer>
+    <performer id="P035" genre="rap" type="band" country="international">
+      <name>Wu-Tang Clan</name>
+    </performer>
+    <performer id="P036" genre="rap" type="band" country="international">
+      <name>Run-D.M.C.</name>
+    </performer>
+    <performer id="P037" genre="rap" type="band" country="international">
+      <name>Beastie Boys</name>
+    </performer>
+    <performer id="P038" genre="rap" type="band" country="international">
+      <name>Geto Boys</name>
+    </performer>
+    <performer id="P039" genre="rap" type="band" country="international">
+      <name>Digital Underground</name>
+    </performer>
+    <performer id="P040" genre="rap" type="band" country="international">
+      <name>Dead Prez</name>
+    </performer>
+    <performer id="P041" genre="rock" type="artist" country="international">
+      <name>Freddie Mercury</name>
+    </performer>
+    <performer id="P042" genre="rock" type="artist" country="international">
+      <name>Kurt Cobain</name>
+    </performer>
+    <performer id="P043" genre="rock" type="artist" country="international">
+      <name>Chester Bennington</name>
+    </performer>
+    <performer id="P044" genre="rock" type="artist" country="international">
+      <name>Chris Cornell</name>
+    </performer>
+    <performer id="P045" genre="rock" type="artist" country="international">
+      <name>Lemmy Kilmister</name>
+    </performer>
+    <performer id="P046" genre="rock" type="artist" country="international">
+      <name>Jimi Hendrix</name>
+    </performer>
+    <performer id="P047" genre="rock" type="artist" country="international">
+      <name>Janis Joplin</name>
+    </performer>
+    <performer id="P048" genre="rock" type="artist" country="international">
+      <name>Jim Morrison</name>
+    </performer>
+    <performer id="P049" genre="rock" type="artist" country="international">
+      <name>Ronnie James Dio</name>
+    </performer>
+    <performer id="P050" genre="rock" type="artist" country="international">
+      <name>Dimebag Darrell</name>
+    </performer>
+    <performer id="P051" genre="rock" type="band" country="international">
+      <name>Nirvana</name>
+    </performer>
+    <performer id="P052" genre="rock" type="band" country="international">
+      <name>Linkin Park</name>
+    </performer>
+    <performer id="P053" genre="rock" type="band" country="international">
+      <name>Soundgarden</name>
+    </performer>
+    <performer id="P054" genre="rock" type="band" country="international">
+      <name>Motörhead</name>
+    </performer>
+    <performer id="P055" genre="rock" type="band" country="international">
+      <name>Led Zeppelin</name>
+    </performer>
+    <performer id="P056" genre="rock" type="band" country="international">
+      <name>AC/DC</name>
+    </performer>
+    <performer id="P057" genre="rock" type="band" country="international">
+      <name>Alice in Chains</name>
+    </performer>
+    <performer id="P058" genre="rock" type="band" country="international">
+      <name>Stone Temple Pilots</name>
+    </performer>
+    <performer id="P059" genre="rock" type="band" country="international">
+      <name>The Doors</name>
+    </performer>
+    <performer id="P060" genre="rock" type="band" country="international">
+      <name>Pantera</name>
+    </performer>
+  </performers>
+  <events>
+    <event id="E001" performerRef="P001" venueRef="V001" date="2026-07-17" time="14:00" duration="45">
+      <title>Michael Jackson Tribute Show</title>
+    </event>
+    <event id="E002" performerRef="P002" venueRef="V001" date="2026-07-17" time="14:50" duration="45">
+      <title>Prince Tribute Show</title>
+    </event>
+    <event id="E003" performerRef="P003" venueRef="V001" date="2026-07-17" time="15:40" duration="45">
+      <title>David Bowie Tribute Show</title>
+    </event>
+    <event id="E004" performerRef="P004" venueRef="V001" date="2026-07-17" time="16:30" duration="45">
+      <title>George Michael Tribute Show</title>
+    </event>
+    <event id="E005" performerRef="P005" venueRef="V001" date="2026-07-17" time="17:20" duration="45">
+      <title>Whitney Houston Tribute Show</title>
+    </event>
+    <event id="E006" performerRef="P006" venueRef="V001" date="2026-07-17" time="18:10" duration="45">
+      <title>Amy Winehouse Tribute Show</title>
+    </event>
+    <event id="E007" performerRef="P007" venueRef="V001" date="2026-07-17" time="19:00" duration="45">
+      <title>Aaliyah Tribute Show</title>
+    </event>
+    <event id="E008" performerRef="P008" venueRef="V001" date="2026-07-17" time="19:50" duration="45">
+      <title>Tina Turner Tribute Show</title>
+    </event>
+    <event id="E009" performerRef="P009" venueRef="V001" date="2026-07-17" time="20:40" duration="45">
+      <title>Selena Tribute Show</title>
+    </event>
+    <event id="E010" performerRef="P010" venueRef="V001" date="2026-07-17" time="21:30" duration="45">
+      <title>Karen Carpenter Tribute Show</title>
+    </event>
+    <event id="E011" performerRef="P011" venueRef="V002" date="2026-07-17" time="14:00" duration="45">
+      <title>Queen Revival Set</title>
+    </event>
+    <event id="E012" performerRef="P012" venueRef="V003" date="2026-07-17" time="14:50" duration="45">
+      <title>The Beatles Revival Set</title>
+    </event>
+    <event id="E013" performerRef="P013" venueRef="V001" date="2026-07-17" time="15:40" duration="45">
+      <title>Wham! Revival Set</title>
+    </event>
+    <event id="E014" performerRef="P014" venueRef="V002" date="2026-07-17" time="16:30" duration="45">
+      <title>The Cranberries Revival Set</title>
+    </event>
+    <event id="E015" performerRef="P015" venueRef="V003" date="2026-07-17" time="17:20" duration="45">
+      <title>Roxette Revival Set</title>
+    </event>
+    <event id="E016" performerRef="P016" venueRef="V001" date="2026-07-17" time="18:10" duration="45">
+      <title>The Carpenters Revival Set</title>
+    </event>
+    <event id="E017" performerRef="P017" venueRef="V002" date="2026-07-17" time="19:00" duration="45">
+      <title>Bee Gees Revival Set</title>
+    </event>
+    <event id="E018" performerRef="P018" venueRef="V003" date="2026-07-17" time="19:50" duration="45">
+      <title>Boney M. Revival Set</title>
+    </event>
+    <event id="E019" performerRef="P019" venueRef="V001" date="2026-07-17" time="20:40" duration="45">
+      <title>The Jackson 5 Revival Set</title>
+    </event>
+    <event id="E020" performerRef="P020" venueRef="V002" date="2026-07-17" time="21:30" duration="45">
+      <title>The Mamas &amp; the Papas Revival Set</title>
+    </event>
+    <event id="E021" performerRef="P021" venueRef="V002" date="2026-07-18" time="14:00" duration="45">
+      <title>Tupac Shakur Tribute Show</title>
+    </event>
+    <event id="E022" performerRef="P022" venueRef="V002" date="2026-07-18" time="14:50" duration="45">
+      <title>The Notorious B.I.G. Tribute Show</title>
+    </event>
+    <event id="E023" performerRef="P023" venueRef="V002" date="2026-07-18" time="15:40" duration="45">
+      <title>XXXTENTACION Tribute Show</title>
+    </event>
+    <event id="E024" performerRef="P024" venueRef="V002" date="2026-07-18" time="16:30" duration="45">
+      <title>Juice WRLD Tribute Show</title>
+    </event>
+    <event id="E025" performerRef="P025" venueRef="V002" date="2026-07-18" time="17:20" duration="45">
+      <title>Pop Smoke Tribute Show</title>
+    </event>
+    <event id="E026" performerRef="P026" venueRef="V002" date="2026-07-18" time="18:10" duration="45">
+      <title>Eazy-E Tribute Show</title>
+    </event>
+    <event id="E027" performerRef="P027" venueRef="V002" date="2026-07-18" time="19:00" duration="45">
+      <title>DMX Tribute Show</title>
+    </event>
+    <event id="E028" performerRef="P028" venueRef="V002" date="2026-07-18" time="19:50" duration="45">
+      <title>MF DOOM Tribute Show</title>
+    </event>
+    <event id="E029" performerRef="P029" venueRef="V002" date="2026-07-18" time="20:40" duration="45">
+      <title>Nipsey Hussle Tribute Show</title>
+    </event>
+    <event id="E030" performerRef="P030" venueRef="V002" date="2026-07-18" time="21:30" duration="45">
+      <title>Mac Miller Tribute Show</title>
+    </event>
+    <event id="E031" performerRef="P031" venueRef="V002" date="2026-07-18" time="14:00" duration="45">
+      <title>Migos Revival Set</title>
+    </event>
+    <event id="E032" performerRef="P032" venueRef="V003" date="2026-07-18" time="14:50" duration="45">
+      <title>N.W.A Revival Set</title>
+    </event>
+    <event id="E033" performerRef="P033" venueRef="V001" date="2026-07-18" time="15:40" duration="45">
+      <title>Mobb Deep Revival Set</title>
+    </event>
+    <event id="E034" performerRef="P034" venueRef="V002" date="2026-07-18" time="16:30" duration="45">
+      <title>A Tribe Called Quest Revival Set</title>
+    </event>
+    <event id="E035" performerRef="P035" venueRef="V003" date="2026-07-18" time="17:20" duration="45">
+      <title>Wu-Tang Clan Revival Set</title>
+    </event>
+    <event id="E036" performerRef="P036" venueRef="V001" date="2026-07-18" time="18:10" duration="45">
+      <title>Run-D.M.C. Revival Set</title>
+    </event>
+    <event id="E037" performerRef="P037" venueRef="V002" date="2026-07-18" time="19:00" duration="45">
+      <title>Beastie Boys Revival Set</title>
+    </event>
+    <event id="E038" performerRef="P038" venueRef="V003" date="2026-07-18" time="19:50" duration="45">
+      <title>Geto Boys Revival Set</title>
+    </event>
+    <event id="E039" performerRef="P039" venueRef="V001" date="2026-07-18" time="20:40" duration="45">
+      <title>Digital Underground Revival Set</title>
+    </event>
+    <event id="E040" performerRef="P040" venueRef="V002" date="2026-07-18" time="21:30" duration="45">
+      <title>Dead Prez Revival Set</title>
+    </event>
+    <event id="E041" performerRef="P041" venueRef="V003" date="2026-07-19" time="14:00" duration="45">
+      <title>Freddie Mercury Tribute Show</title>
+    </event>
+    <event id="E042" performerRef="P042" venueRef="V003" date="2026-07-19" time="14:50" duration="45">
+      <title>Kurt Cobain Tribute Show</title>
+    </event>
+    <event id="E043" performerRef="P043" venueRef="V003" date="2026-07-19" time="15:40" duration="45">
+      <title>Chester Bennington Tribute Show</title>
+    </event>
+    <event id="E044" performerRef="P044" venueRef="V003" date="2026-07-19" time="16:30" duration="45">
+      <title>Chris Cornell Tribute Show</title>
+    </event>
+    <event id="E045" performerRef="P045" venueRef="V003" date="2026-07-19" time="17:20" duration="45">
+      <title>Lemmy Kilmister Tribute Show</title>
+    </event>
+    <event id="E046" performerRef="P046" venueRef="V003" date="2026-07-19" time="18:10" duration="45">
+      <title>Jimi Hendrix Tribute Show</title>
+    </event>
+    <event id="E047" performerRef="P047" venueRef="V003" date="2026-07-19" time="19:00" duration="45">
+      <title>Janis Joplin Tribute Show</title>
+    </event>
+    <event id="E048" performerRef="P048" venueRef="V003" date="2026-07-19" time="19:50" duration="45">
+      <title>Jim Morrison Tribute Show</title>
+    </event>
+    <event id="E049" performerRef="P049" venueRef="V003" date="2026-07-19" time="20:40" duration="45">
+      <title>Ronnie James Dio Tribute Show</title>
+    </event>
+    <event id="E050" performerRef="P050" venueRef="V003" date="2026-07-19" time="21:30" duration="45">
+      <title>Dimebag Darrell Tribute Show</title>
+    </event>
+    <event id="E051" performerRef="P051" venueRef="V002" date="2026-07-19" time="14:00" duration="45">
+      <title>Nirvana Revival Set</title>
+    </event>
+    <event id="E052" performerRef="P052" venueRef="V003" date="2026-07-19" time="14:50" duration="45">
+      <title>Linkin Park Revival Set</title>
+    </event>
+    <event id="E053" performerRef="P053" venueRef="V001" date="2026-07-19" time="15:40" duration="45">
+      <title>Soundgarden Revival Set</title>
+    </event>
+    <event id="E054" performerRef="P054" venueRef="V002" date="2026-07-19" time="16:30" duration="45">
+      <title>Motörhead Revival Set</title>
+    </event>
+    <event id="E055" performerRef="P055" venueRef="V003" date="2026-07-19" time="17:20" duration="45">
+      <title>Led Zeppelin Revival Set</title>
+    </event>
+    <event id="E056" performerRef="P056" venueRef="V001" date="2026-07-19" time="18:10" duration="45">
+      <title>AC/DC Revival Set</title>
+    </event>
+    <event id="E057" performerRef="P057" venueRef="V002" date="2026-07-19" time="19:00" duration="45">
+      <title>Alice in Chains Revival Set</title>
+    </event>
+    <event id="E058" performerRef="P058" venueRef="V003" date="2026-07-19" time="19:50" duration="45">
+      <title>Stone Temple Pilots Revival Set</title>
+    </event>
+    <event id="E059" performerRef="P059" venueRef="V001" date="2026-07-19" time="20:40" duration="45">
+      <title>The Doors Revival Set</title>
+    </event>
+    <event id="E060" performerRef="P060" venueRef="V002" date="2026-07-19" time="21:30" duration="45">
+      <title>Pantera Revival Set</title>
+    </event>
+  </events>
+  <summary>Back From The Dead Fest je tridenní hudební festival zamerený na revival a tribute vystoupení legend popu, rapu a rocku.</summary>
+  <description>Festival propojuje nostalgii po ikonických jménech s moderním festivalovým zázemím. Návstevníci behem trí dnu uvidí 60 vystoupení na trech scénách v areálu letiste Milovice.</description>
+  <tickets currency="CZK" presalePrice="2490" regularPrice="2990" url="https://example.com/back-from-the-dead-fest/tickets" />
+  <links>
+    <link rel="website" href="https://example.com/back-from-the-dead-fest" />
+    <link rel="tickets" href="https://example.com/back-from-the-dead-fest/tickets" />
+    <link rel="instagram" href="https://instagram.com/backfromthedeadfest" />
+    <link rel="facebook" href="https://facebook.com/backfromthedeadfest" />
+  </links>
+</festival>

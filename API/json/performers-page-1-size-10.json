@@ -1,0 +1,11 @@
+
+{
+  "page": 1,
+  "pageSize": 10,
+  "totalItems": 60,
+  "totalPages": 6,
+  "items": [
+    { "id": "P001", "name": "Michael Jackson", "genre": "pop", "type": "artist", "country": "international" },{ "id": "P002", "name": "Prince", "genre": "pop", "type": "artist", "country": "international" },{ "id": "P003", "name": "David Bowie", "genre": "pop", "type": "artist", "country": "international" },{ "id": "P004", "name": "George Michael", "genre": "pop", "type": "artist", "country": "international" },{ "id": "P005", "name": "Whitney Houston", "genre": "pop", "type": "artist", "country": "international" },{ "id": "P006", "name": "Amy Winehouse", "genre": "pop", "type": "artist", "country": "international" },{ "id": "P007", "name": "Aaliyah", "genre": "pop", "type": "artist", "country": "international" },{ "id": "P008", "name": "Tina Turner", "genre": "pop", "type": "artist", "country": "international" },{ "id": "P009", "name": "Selena", "genre": "pop", "type": "artist", "country": "international" },{ "id": "P010", "name": "Karen Carpenter", "genre": "pop", "type": "artist", "country": "international" }
+  ]
+}
+  

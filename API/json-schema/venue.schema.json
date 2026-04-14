@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type",
+    "capacity",
+    "description"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^V\\d{3}$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "open-air",
+        "tent",
+        "hall"
+      ]
+    },
+    "capacity": {
+      "type": "integer",
+      "minimum": 1000
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

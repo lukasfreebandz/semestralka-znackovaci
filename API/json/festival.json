@@ -1,0 +1,21 @@
+
+{
+  "id": "F001",
+  "name": "Back From The Dead Fest",
+  "edition": 1,
+  "description": "Festival propojuje nostalgii po ikonických jménech s moderním festivalovým zázemím. Návstevníci behem trí dnu uvidí 60 vystoupení na trech scénách v areálu letiste Milovice.",
+  "summary": "Back From The Dead Fest je tridenní hudební festival zamerený na revival a tribute vystoupení legend popu, rapu a rocku.",
+  "startDate": "2026-07-17",
+  "endDate": "2026-07-19",
+  "location": "Letiště Milovice, Česká republika",
+  "tickets": {
+    "currency": "CZK",
+    "presalePrice": 2490,
+    "regularPrice": 2990,
+    "url": "https://example.com/back-from-the-dead-fest/tickets"
+  },
+  "links": [
+    { "rel": "website", "href": "https://example.com/back-from-the-dead-fest" },{ "rel": "tickets", "href": "https://example.com/back-from-the-dead-fest/tickets" },{ "rel": "instagram", "href": "https://instagram.com/backfromthedeadfest" },{ "rel": "facebook", "href": "https://facebook.com/backfromthedeadfest" }
+  ]
+}
+  

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "date",
+    "time",
+    "duration",
+    "performerId",
+    "venueId"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^E\\d{3}$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "time": {
+      "type": "string",
+      "pattern": "^([01]\\\\d|2[0-3]):[0-5]\\\\d$"
+    },
+    "duration": {
+      "type": "integer",
+      "minimum": 15
+    },
+    "performerId": {
+      "type": "string",
+      "pattern": "^P\\d{3}$"
+    },
+    "venueId": {
+      "type": "string",
+      "pattern": "^V\\d{3}$"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "genre",
+    "type",
+    "country"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^P\\d{3}$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string",
+      "enum": [
+        "pop",
+        "rap",
+        "rock"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "artist",
+        "band"
+      ]
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}

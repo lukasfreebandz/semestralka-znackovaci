@@ -1,0 +1,7 @@
+
+{
+  "items": [
+    { "id": "V001", "name": "Main Stage", "type": "open-air", "capacity": 12000, "description": "Hlavní scéna pro největší popová vystoupení a večerní program." },{ "id": "V002", "name": "Rap Arena", "type": "open-air", "capacity": 8000, "description": "Scéna zaměřená na rap a hip-hop tribute show." },{ "id": "V003", "name": "Rock Dome", "type": "tent", "capacity": 7000, "description": "Krytá scéna pro rockové a alternativní revival koncerty." }
+  ]
+}
+  
