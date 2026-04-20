@@ -4,164 +4,172 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Back From The Dead Fest | Účinkující</title>
-  <meta name="description" content="Přehled všech 60 účinkujících festivalu Back From The Dead Fest rozdělený podle žánrů a typu vystoupení.">
+  <meta name="description" content="Přehled všech 60 účinkujících festivalu Back From The Dead Fest — pop, rap, rock, tribute show i revival sety.">
   <meta property="og:title" content="Back From The Dead Fest | Účinkující">
-  <meta property="og:description" content="Přehled všech 60 účinkujících festivalu Back From The Dead Fest rozdělený podle žánrů a typu vystoupení.">
   <meta property="og:image" content="https://picsum.photos/1200/630?random=31">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <p class="eyebrow">Back From The Dead Fest 2026</p>
+    <a class="site-brand" href="index.html">BFTD Fest</a>
     <nav class="site-nav" aria-label="Hlavní navigace">
       <ul>
         <li><a href="index.html">Úvod</a></li>
         <li><a href="program.html">Program</a></li>
-        <li><a href="performers.html">Účinkující</a></li>
-        <li><a href="practical.html">Praktické informace</a></li>
+        <li><a href="performers.html" class="active">Účinkující</a></li>
+        <li><a href="practical.html">Praktické info</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section class="hero hero-compact">
-      <p class="eyebrow">Line-up</p>
-      <h1>Všech 60 jmen festivalu</h1>
-      <p>
-        Line-up kombinuje sólové tribute interprety i celé revival kapely. Přehled je
-        rozdělený podle žánrů a typu vystoupení, aby bylo hned vidět, jak je festival
-        poskládaný mezi popem, rapem a rockem.
-      </p>
+      <p class="hero-sub">Line-up 2026</p>
+      <h1>60 jmen,<br>tři žánry</h1>
+      <p class="lead">Třicet sólových tribute show a třicet revival setů kapel. Kompletní line-up rozdělený po žánrech.</p>
     </section>
 
-    <section class="card">
-      <p class="eyebrow">Orientace</p>
-      <h2>Jak lineup číst</h2>
-      <p>Každý žánr má dvě části: sólové tribute show a revival sety kapel. Ukázkový detail interpreta je dostupný u Michaela Jacksona.</p>
-    </section>
+    <nav class="quick-nav" aria-label="Navigace po žánrech">
+      <a class="btn btn-outline" href="#pop">Pop</a>
+      <a class="btn btn-outline" href="#rap">Rap</a>
+      <a class="btn btn-outline" href="#rock">Rock</a>
+    </nav>
 
-    <section>
-      <p class="eyebrow">Pop</p>
-      <h2>20 popových návratů</h2>
+    <!-- POP -->
+    <section id="pop">
+      <div class="day-header">
+        <h2>Pop</h2>
+        <span class="day-date">Main Stage · Pátek 17. 7.</span>
+      </div>
       <div class="grid">
         <article class="card">
-          <h3>Sóloví interpreti</h3>
-          <p>Popová část festivalu stojí na známých hlasových ikonách a největších refrénech víkendu.</p>
-          <ul>
-            <li id="p001"><a href="performer-detail.html">Michael Jackson</a> · tribute show</li>
-            <li id="p002">Prince · tribute show</li>
-            <li id="p003">David Bowie · tribute show</li>
-            <li id="p004">George Michael · tribute show</li>
-            <li id="p005">Whitney Houston · tribute show</li>
-            <li id="p006">Amy Winehouse · tribute show</li>
-            <li id="p007">Aaliyah · tribute show</li>
-            <li id="p008">Tina Turner · tribute show</li>
-            <li id="p009">Selena · tribute show</li>
-            <li id="p010">Karen Carpenter · tribute show</li>
+          <span class="section-label">Sóloví interpreti</span>
+          <ul class="performer-list">
+            <li id="p001"><a href="performer-detail.html">Michael Jackson</a><span class="tag">tribute show</span></li>
+            <li id="p002"><a href="performers.html#p002">Prince</a><span class="tag">tribute show</span></li>
+            <li id="p003"><a href="performers.html#p003">David Bowie</a><span class="tag">tribute show</span></li>
+            <li id="p004"><a href="performers.html#p004">George Michael</a><span class="tag">tribute show</span></li>
+            <li id="p005"><a href="performers.html#p005">Whitney Houston</a><span class="tag">tribute show</span></li>
+            <li id="p006"><a href="performers.html#p006">Amy Winehouse</a><span class="tag">tribute show</span></li>
+            <li id="p007"><a href="performers.html#p007">Aaliyah</a><span class="tag">tribute show</span></li>
+            <li id="p008"><a href="performers.html#p008">Tina Turner</a><span class="tag">tribute show</span></li>
+            <li id="p009"><a href="performers.html#p009">Selena</a><span class="tag">tribute show</span></li>
+            <li id="p010"><a href="performers.html#p010">Karen Carpenter</a><span class="tag">tribute show</span></li>
           </ul>
         </article>
         <article class="card">
-          <h3>Kapely</h3>
-          <ul>
-            <li id="p011">Queen · revival set</li>
-            <li id="p012">The Beatles · revival set</li>
-            <li id="p013">Wham! · revival set</li>
-            <li id="p014">The Cranberries · revival set</li>
-            <li id="p015">Roxette · revival set</li>
-            <li id="p016">The Carpenters · revival set</li>
-            <li id="p017">Bee Gees · revival set</li>
-            <li id="p018">Boney M. · revival set</li>
-            <li id="p019">The Jackson 5 · revival set</li>
-            <li id="p020">The Mamas &amp; the Papas · revival set</li>
+          <span class="section-label">Kapely</span>
+          <ul class="performer-list">
+            <li id="p011"><a href="performers.html#p011">Queen</a><span class="tag">revival set</span></li>
+            <li id="p012"><a href="performers.html#p012">The Beatles</a><span class="tag">revival set</span></li>
+            <li id="p013"><a href="performers.html#p013">Wham!</a><span class="tag">revival set</span></li>
+            <li id="p014"><a href="performers.html#p014">The Cranberries</a><span class="tag">revival set</span></li>
+            <li id="p015"><a href="performers.html#p015">Roxette</a><span class="tag">revival set</span></li>
+            <li id="p016"><a href="performers.html#p016">The Carpenters</a><span class="tag">revival set</span></li>
+            <li id="p017"><a href="performers.html#p017">Bee Gees</a><span class="tag">revival set</span></li>
+            <li id="p018"><a href="performers.html#p018">Boney M.</a><span class="tag">revival set</span></li>
+            <li id="p019"><a href="performers.html#p019">The Jackson 5</a><span class="tag">revival set</span></li>
+            <li id="p020"><a href="performers.html#p020">The Mamas &amp; the Papas</a><span class="tag">revival set</span></li>
           </ul>
         </article>
       </div>
     </section>
 
-    <section>
-      <p class="eyebrow">Rap</p>
-      <h2>20 rapových jmen</h2>
+    <!-- RAP -->
+    <section id="rap">
+      <div class="day-header">
+        <h2>Rap</h2>
+        <span class="day-date">Rap Arena · Sobota 18. 7.</span>
+      </div>
       <div class="grid">
         <article class="card">
-          <h3>Sóloví interpreti</h3>
-          <p>Rap Arena stojí na výrazných jménech, energii davu a večerním tempu, které drží celý den pohromadě.</p>
-          <ul>
-            <li id="p021">Tupac Shakur · tribute show</li>
-            <li id="p022">The Notorious B.I.G. · tribute show</li>
-            <li id="p023">XXXTENTACION · tribute show</li>
-            <li id="p024">Juice WRLD · tribute show</li>
-            <li id="p025">Pop Smoke · tribute show</li>
-            <li id="p026">Eazy-E · tribute show</li>
-            <li id="p027">DMX · tribute show</li>
-            <li id="p028">MF DOOM · tribute show</li>
-            <li id="p029">Nipsey Hussle · tribute show</li>
-            <li id="p030">Mac Miller · tribute show</li>
+          <span class="section-label">Sóloví interpreti</span>
+          <ul class="performer-list">
+            <li id="p021"><a href="performers.html#p021">Tupac Shakur</a><span class="tag">tribute show</span></li>
+            <li id="p022"><a href="performers.html#p022">The Notorious B.I.G.</a><span class="tag">tribute show</span></li>
+            <li id="p023"><a href="performers.html#p023">XXXTENTACION</a><span class="tag">tribute show</span></li>
+            <li id="p024"><a href="performers.html#p024">Juice WRLD</a><span class="tag">tribute show</span></li>
+            <li id="p025"><a href="performers.html#p025">Pop Smoke</a><span class="tag">tribute show</span></li>
+            <li id="p026"><a href="performers.html#p026">Eazy-E</a><span class="tag">tribute show</span></li>
+            <li id="p027"><a href="performers.html#p027">DMX</a><span class="tag">tribute show</span></li>
+            <li id="p028"><a href="performers.html#p028">MF DOOM</a><span class="tag">tribute show</span></li>
+            <li id="p029"><a href="performers.html#p029">Nipsey Hussle</a><span class="tag">tribute show</span></li>
+            <li id="p030"><a href="performers.html#p030">Mac Miller</a><span class="tag">tribute show</span></li>
           </ul>
         </article>
         <article class="card">
-          <h3>Kapely</h3>
-          <ul>
-            <li id="p031">Migos · revival set</li>
-            <li id="p032">N.W.A · revival set</li>
-            <li id="p033">Mobb Deep · revival set</li>
-            <li id="p034">A Tribe Called Quest · revival set</li>
-            <li id="p035">Wu-Tang Clan · revival set</li>
-            <li id="p036">Run-D.M.C. · revival set</li>
-            <li id="p037">Beastie Boys · revival set</li>
-            <li id="p038">Geto Boys · revival set</li>
-            <li id="p039">Digital Underground · revival set</li>
-            <li id="p040">Dead Prez · revival set</li>
+          <span class="section-label">Kapely</span>
+          <ul class="performer-list">
+            <li id="p031"><a href="performers.html#p031">Migos</a><span class="tag">revival set</span></li>
+            <li id="p032"><a href="performers.html#p032">N.W.A</a><span class="tag">revival set</span></li>
+            <li id="p033"><a href="performers.html#p033">Mobb Deep</a><span class="tag">revival set</span></li>
+            <li id="p034"><a href="performers.html#p034">A Tribe Called Quest</a><span class="tag">revival set</span></li>
+            <li id="p035"><a href="performers.html#p035">Wu-Tang Clan</a><span class="tag">revival set</span></li>
+            <li id="p036"><a href="performers.html#p036">Run-D.M.C.</a><span class="tag">revival set</span></li>
+            <li id="p037"><a href="performers.html#p037">Beastie Boys</a><span class="tag">revival set</span></li>
+            <li id="p038"><a href="performers.html#p038">Geto Boys</a><span class="tag">revival set</span></li>
+            <li id="p039"><a href="performers.html#p039">Digital Underground</a><span class="tag">revival set</span></li>
+            <li id="p040"><a href="performers.html#p040">Dead Prez</a><span class="tag">revival set</span></li>
           </ul>
         </article>
       </div>
     </section>
 
-    <section>
-      <p class="eyebrow">Rock</p>
-      <h2>20 rockových jmen</h2>
+    <!-- ROCK -->
+    <section id="rock">
+      <div class="day-header">
+        <h2>Rock</h2>
+        <span class="day-date">Rock Dome · Neděle 19. 7.</span>
+      </div>
       <div class="grid">
         <article class="card">
-          <h3>Sóloví interpreti</h3>
-          <p>Rockové finále uzavírá festival největší koncertní intenzitou, výraznými hlasy a tvrdším závěrem celého víkendu.</p>
-          <ul>
-            <li id="p041">Freddie Mercury · tribute show</li>
-            <li id="p042">Kurt Cobain · tribute show</li>
-            <li id="p043">Chester Bennington · tribute show</li>
-            <li id="p044">Chris Cornell · tribute show</li>
-            <li id="p045">Lemmy Kilmister · tribute show</li>
-            <li id="p046">Jimi Hendrix · tribute show</li>
-            <li id="p047">Janis Joplin · tribute show</li>
-            <li id="p048">Jim Morrison · tribute show</li>
-            <li id="p049">Ronnie James Dio · tribute show</li>
-            <li id="p050">Dimebag Darrell · tribute show</li>
+          <span class="section-label">Sóloví interpreti</span>
+          <ul class="performer-list">
+            <li id="p041"><a href="performers.html#p041">Freddie Mercury</a><span class="tag">tribute show</span></li>
+            <li id="p042"><a href="performers.html#p042">Kurt Cobain</a><span class="tag">tribute show</span></li>
+            <li id="p043"><a href="performers.html#p043">Chester Bennington</a><span class="tag">tribute show</span></li>
+            <li id="p044"><a href="performers.html#p044">Chris Cornell</a><span class="tag">tribute show</span></li>
+            <li id="p045"><a href="performers.html#p045">Lemmy Kilmister</a><span class="tag">tribute show</span></li>
+            <li id="p046"><a href="performers.html#p046">Jimi Hendrix</a><span class="tag">tribute show</span></li>
+            <li id="p047"><a href="performers.html#p047">Janis Joplin</a><span class="tag">tribute show</span></li>
+            <li id="p048"><a href="performers.html#p048">Jim Morrison</a><span class="tag">tribute show</span></li>
+            <li id="p049"><a href="performers.html#p049">Ronnie James Dio</a><span class="tag">tribute show</span></li>
+            <li id="p050"><a href="performers.html#p050">Dimebag Darrell</a><span class="tag">tribute show</span></li>
           </ul>
         </article>
         <article class="card">
-          <h3>Kapely</h3>
-          <ul>
-            <li id="p051">Nirvana · revival set</li>
-            <li id="p052">Linkin Park · revival set</li>
-            <li id="p053">Soundgarden · revival set</li>
-            <li id="p054">Motörhead · revival set</li>
-            <li id="p055">Led Zeppelin · revival set</li>
-            <li id="p056">AC/DC · revival set</li>
-            <li id="p057">Alice in Chains · revival set</li>
-            <li id="p058">Stone Temple Pilots · revival set</li>
-            <li id="p059">The Doors · revival set</li>
-            <li id="p060">Pantera · revival set</li>
+          <span class="section-label">Kapely</span>
+          <ul class="performer-list">
+            <li id="p051"><a href="performers.html#p051">Nirvana</a><span class="tag">revival set</span></li>
+            <li id="p052"><a href="performers.html#p052">Linkin Park</a><span class="tag">revival set</span></li>
+            <li id="p053"><a href="performers.html#p053">Soundgarden</a><span class="tag">revival set</span></li>
+            <li id="p054"><a href="performers.html#p054">Motörhead</a><span class="tag">revival set</span></li>
+            <li id="p055"><a href="performers.html#p055">Led Zeppelin</a><span class="tag">revival set</span></li>
+            <li id="p056"><a href="performers.html#p056">AC/DC</a><span class="tag">revival set</span></li>
+            <li id="p057"><a href="performers.html#p057">Alice in Chains</a><span class="tag">revival set</span></li>
+            <li id="p058"><a href="performers.html#p058">Stone Temple Pilots</a><span class="tag">revival set</span></li>
+            <li id="p059"><a href="performers.html#p059">The Doors</a><span class="tag">revival set</span></li>
+            <li id="p060"><a href="performers.html#p060">Pantera</a><span class="tag">revival set</span></li>
           </ul>
         </article>
       </div>
     </section>
 
     <aside>
-      <h2>Festivalový mix</h2>
-      <p>Line-up kombinuje 30 sólových tribute vystoupení a 30 revival setů kapel, takže každý den působí jinak a program se neopakuje.</p>
+      <h2>30 tribute show · 30 revival setů</h2>
+      <p style="color:var(--muted);margin-top:.5rem">Každý den má jiný charakter. Pátek je popový, sobota rapová, neděle rocková. Celý víkend v jedné vstupence.</p>
+      <div class="cta-row" style="justify-content:flex-start;margin-top:1.2rem">
+        <a class="btn btn-primary" href="https://example.com/back-from-the-dead-fest/tickets">Koupit vstupenky</a>
+        <a class="btn btn-outline" href="program.html">Zobrazit program</a>
+      </div>
     </aside>
   </main>
 
   <footer class="site-footer">
-    <p>Back From The Dead Fest · 17.–19. 7. 2026 · Letiště Milovice</p>
+    <div class="footer-inner">
+      <span>Back From The Dead Fest · 17.–19. 7. 2026 · Letiště Milovice</span>
+      <span>© 2026 BFTD Fest</span>
+    </div>
   </footer>
 </body>
 </html>

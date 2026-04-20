@@ -4,78 +4,112 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Back From The Dead Fest | Praktické informace</title>
-  <meta name="description" content="Praktické informace k festivalu Back From The Dead Fest: doprava, parkování, ubytování a vstupenky.">
+  <meta name="description" content="Praktické informace k festivalu Back From The Dead Fest: doprava, parkování, ubytování, vstupenky a areál.">
   <meta property="og:title" content="Back From The Dead Fest | Praktické informace">
-  <meta property="og:description" content="Praktické informace k festivalu Back From The Dead Fest: doprava, parkování, ubytování a vstupenky.">
   <meta property="og:image" content="https://picsum.photos/1200/630?random=51">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <p class="eyebrow">Back From The Dead Fest 2026</p>
+    <a class="site-brand" href="index.html">BFTD Fest</a>
     <nav class="site-nav" aria-label="Hlavní navigace">
       <ul>
         <li><a href="index.html">Úvod</a></li>
         <li><a href="program.html">Program</a></li>
         <li><a href="performers.html">Účinkující</a></li>
-        <li><a href="practical.html">Praktické informace</a></li>
+        <li><a href="practical.html" class="active">Praktické info</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <p class="eyebrow">Praktické informace</p>
-      <h1>Všechno důležité na jednom místě</h1>
-      <p>
-        Přehled základních informací k návštěvě areálu, dopravě, ubytování i nákupu vstupenek.
-        Tato část webu je záměrně jednodušší a slouží hlavně k rychlé orientaci před festivalem.
-      </p>
+    <section class="hero hero-compact">
+      <p class="hero-sub">Vše důležité</p>
+      <h1>Před příjezdem<br>na Milovice</h1>
+      <p class="lead">Vstupenky, doprava, ubytování a orientace v areálu — vše na jednom místě.</p>
     </section>
 
-    <section class="grid">
-      <article class="card">
-        <h2>Festivalové scény</h2>
-        <ul>
-          <li>Main Stage · kapacita 12 000 návštěvníků</li>
-          <li>Rap Arena · kapacita 8 000 návštěvníků</li>
-          <li>Rock Dome · kapacita 7 000 návštěvníků</li>
-        </ul>
-      </article>
-      <article class="card">
-        <h2>Ubytování</h2>
-        <p>Nejjednodušší možností je vlastní stan ve festivalovém kempu. Kdo chce větší pohodlí, může využít penziony a apartmány v Milovicích a okolí.</p>
-      </article>
-      <article class="card">
-        <h2>Vstupenky</h2>
-        <p>Předprodej: 2490 Kč · běžná cena: 2990 Kč</p>
-        <p><a href="https://example.com/back-from-the-dead-fest/tickets">Online nákup vstupenek</a></p>
-      </article>
+    <section>
+      <div class="grid">
+        <article class="card card-accent">
+          <span class="section-label">Vstupenky</span>
+          <h2>2 490 Kč</h2>
+          <ul class="stat-list" style="margin-top:.75rem">
+            <li><span class="stat-label">Předprodej</span> 2 490 Kč</li>
+            <li><span class="stat-label">Běžná cena</span> 2 990 Kč</li>
+            <li><span class="stat-label">Platnost</span> Všechny 3 dny</li>
+            <li><span class="stat-label">Kapacita</span> Omezená</li>
+          </ul>
+          <div style="margin-top:1.2rem">
+            <a class="btn btn-primary" href="https://example.com/back-from-the-dead-fest/tickets">Koupit vstupenky</a>
+          </div>
+        </article>
+        <article class="card">
+          <span class="section-label">Festivalové scény</span>
+          <h2>Areál</h2>
+          <ul class="stat-list" style="margin-top:.75rem">
+            <li><span class="stat-label">Main Stage</span> 12 000 návštěvníků</li>
+            <li><span class="stat-label">Rap Arena</span> 8 000 návštěvníků</li>
+            <li><span class="stat-label">Rock Dome</span> 7 000 návštěvníků</li>
+            <li><span class="stat-label">Brány</span> Otevřeny od 13:00</li>
+          </ul>
+        </article>
+        <article class="card">
+          <span class="section-label">Ubytování</span>
+          <h2>Kde spát</h2>
+          <p style="margin-top:.75rem;color:var(--muted)">Nejjednodušší je vlastní stan ve festivalovém kempu přímo v areálu. Kdo preferuje postel, najde penziony a apartmány v Milovicích a okolí.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="grid">
+        <article class="card">
+          <span class="section-label">Doprava</span>
+          <h2>Jak se dostat</h2>
+          <ul class="stat-list" style="margin-top:.75rem">
+            <li><span class="stat-label">Autem</span> D11 směr Mladá Boleslav, exit Milovice</li>
+            <li><span class="stat-label">Vlakem</span> Linka Praha – Lysá nad Labem, zastávka Milovice</li>
+            <li><span class="stat-label">Parkování</span> Vyhrazené parkoviště v docházkové vzdálenosti</li>
+          </ul>
+          <address style="margin-top:1rem;color:var(--muted);font-size:.9rem">Letiště Milovice, Milovice, Česká republika</address>
+        </article>
+        <article class="card">
+          <span class="section-label">Co s sebou</span>
+          <h2>Před příjezdem</h2>
+          <ul class="card" style="background:none;border:none;padding:0;margin-top:.75rem">
+            <li style="padding:.45rem 0;border-bottom:1px solid rgba(255,255,255,.06)">Vstupenka (vytištěná nebo v telefonu)</li>
+            <li style="padding:.45rem 0;border-bottom:1px solid rgba(255,255,255,.06)">Doklad totožnosti</li>
+            <li style="padding:.45rem 0;border-bottom:1px solid rgba(255,255,255,.06)">Hotovost — v areálu funguje i cashless</li>
+            <li style="padding:.45rem 0;border-bottom:1px solid rgba(255,255,255,.06)">Lehká pláštěnka</li>
+            <li style="padding:.45rem 0">Časová rezerva na přesun mezi stage</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
     <section>
       <article class="card">
-        <h2>Doprava a parkování</h2>
-        <p>Do Milovic je možné přijet autem i vlakem. V blízkosti areálu bude vyhrazené parkoviště pro návštěvníky a navazující pěší přístup k hlavní vstupní bráně.</p>
-        <address>Letiště Milovice, Milovice, Česká republika</address>
-      </article>
-    </section>
-
-    <section>
-      <article class="card">
-        <h2>Orientace v areálu</h2>
-        <p>Vstupní zóna navazuje na hlavní festivalovou osu, ze které jsou dostupné všechny tři stage, gastro část i informační stan.</p>
+        <span class="section-label">Orientace v areálu</span>
+        <h2>Layout areálu</h2>
+        <p style="margin-top:.75rem;color:var(--muted)">Vstupní zóna navazuje na hlavní festivalovou osu, ze které jsou dostupné všechny tři stage. Gastro zóna a informační stan se nacházejí v centru areálu. Přesuny mezi stage trvají 5–10 minut pěšky.</p>
       </article>
     </section>
 
     <aside>
-      <h2>Doporučení před příjezdem</h2>
-      <p>Vyplatí se vzít si hotovost, doklady, lehkou pláštěnku a časovou rezervu na přesun mezi scénami.</p>
+      <h2>Zbývá málo vstupenek</h2>
+      <p style="color:var(--muted);margin-top:.5rem">Kapacita areálu je omezená. Předprodejní cena 2 490 Kč platí do vyprodání zásob — pak přechází na běžnou cenu 2 990 Kč nebo vyprodáno.</p>
+      <div class="cta-row" style="justify-content:flex-start;margin-top:1.2rem">
+        <a class="btn btn-primary" href="https://example.com/back-from-the-dead-fest/tickets">Koupit vstupenky</a>
+      </div>
     </aside>
   </main>
 
   <footer class="site-footer">
-    <p>Back From The Dead Fest · 17.–19. 7. 2026 · Letiště Milovice</p>
+    <div class="footer-inner">
+      <span>Back From The Dead Fest · 17.–19. 7. 2026 · Letiště Milovice</span>
+      <span>© 2026 BFTD Fest</span>
+    </div>
   </footer>
 </body>
 </html>
