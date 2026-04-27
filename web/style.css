@@ -13,6 +13,7 @@ h1,h2,h3{margin:.15em 0 .55em;line-height:1.05;font-family:Georgia,"Times New Ro
 .site-nav ul,.inline-list,.cta-row{display:flex;flex-wrap:wrap;gap:1rem}
 .site-nav a{color:var(--cream);text-decoration:none;padding:.2rem 0;border-bottom:2px solid transparent;text-transform:uppercase;letter-spacing:.08em;font-size:.92rem}
 .site-nav a:hover,.site-nav a:focus{color:var(--gold);border-color:var(--ember)}
+.site-nav a[aria-current="page"]{background:linear-gradient(135deg,#f2bd5b,#cf4b1e);color:#1a0f0b;border-radius:999px;padding:.5rem .9rem;border-color:transparent;box-shadow:0 0 18px rgba(239,179,74,.18)}
 main{max-width:1120px;margin:0 auto;padding:2rem min(5vw,3rem) 4rem}
 .hero,.card,aside{background:linear-gradient(180deg,rgba(255,184,78,.08),rgba(255,255,255,.02)),var(--panel);border:1px solid rgba(239,179,74,.16);box-shadow:var(--shadow)}
 .hero{position:relative;padding:2.6rem;margin-bottom:2rem;border-left:4px solid var(--ember);overflow:hidden;text-align:center}
