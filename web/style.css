@@ -49,6 +49,9 @@ main{max-width:1120px;margin:0 auto;padding:2rem min(5vw,3rem) 4rem}
 section{margin-bottom:2rem}
 address{font-style:normal;color:var(--muted)}
 p,li{max-width:68ch}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-bottom:2rem}
+.gallery-grid img{border-radius:4px;border:1px solid rgba(239,179,74,.16);box-shadow:var(--shadow);transition:transform 0.2s;object-fit:cover;height:200px;width:100%}
+.gallery-grid img:hover{transform:scale(1.05)}
 @media (max-width:700px){
   .site-nav ul,.inline-list,.cta-row{flex-direction:column;gap:.7rem}
   main{padding-top:1.4rem}
